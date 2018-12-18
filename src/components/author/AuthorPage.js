@@ -27,8 +27,11 @@ class AuthorsPage extends React.Component {
                 className="btn btn-primary"
                 onClick={this.redirectToAddAuthorPage}/>
         </div>
-
-        <AuthorList authors={authors} />
+        {
+          authors.length ?
+          <AuthorList authors={authors} /> :
+          <div>No authors found.</div>
+        }
       </div>
     );
   }
