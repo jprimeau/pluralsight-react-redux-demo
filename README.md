@@ -5,7 +5,7 @@ https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-o
 Challenges:
 - [x] Author administration
 - [ ] Delete course and author
-- [ ] Hide empty course and author list
+- [x] Hide empty course and author list
 - [ ] Unsaved changes message
 - [ ] Client-side validation
 - [ ] Handle 404's (mapStateToProps?)
